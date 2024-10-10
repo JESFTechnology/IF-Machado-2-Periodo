@@ -6,7 +6,10 @@ namespace CalculadoraDePotencia
     {
         static double CalcularPotencia(int baseNumber, int exponent)
         {
-            double result = Math.Pow(baseNumber, exponent);
+            double result = baseNumber;
+            for(int i = 1; i < exponent; i++ ){
+                result = result * baseNumber;
+            }
             return result;
         }
 
