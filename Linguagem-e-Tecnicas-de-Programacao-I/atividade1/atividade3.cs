@@ -8,7 +8,8 @@ namespace Fatorial
         {
             if (numero < 0)
             {
-                throw new ArgumentException("O número deve ser um inteiro positivo.");
+                Console.WriteLine("O número deve ser um inteiro positivo.");
+                return 0;
             }
             long fatorial = 1;
             for (int i = 1; i <= numero; i++)
