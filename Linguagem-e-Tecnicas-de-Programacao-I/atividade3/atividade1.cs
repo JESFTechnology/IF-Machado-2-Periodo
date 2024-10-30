@@ -5,9 +5,9 @@ class Program
     static int SomaE(int[] vetor)
     {
         int soma = 0;
-        foreach (int elemento in vetor)
+        for (int i = 0; i < vetor.Length; i++) // Itera sobre o vetor usando um loop for
         {
-            soma += elemento;
+            soma += vetor[i]; // Adiciona o elemento atual à soma
         }
         return soma;
     }
