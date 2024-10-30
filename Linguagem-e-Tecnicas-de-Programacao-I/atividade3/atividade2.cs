@@ -27,7 +27,6 @@ class Program
             vetor[i] = double.Parse(Console.ReadLine());
         }
         
-        Console.WriteLine("O vetor é: [" + string.Join(", ", vetor) + "]");
         double maior = MaiorE(vetor);
         Console.WriteLine($"O maior elemento do vetor é: {maior}");
     }
