@@ -21,7 +21,7 @@ class Program
 
         double[] vetor = new double[n];
 
-        Console.WriteLine("Digite "+n+"números reais:");
+        Console.WriteLine("Digite "+n+" números reais:");
 
         for (int i = 0; i < n; i++)
         {
