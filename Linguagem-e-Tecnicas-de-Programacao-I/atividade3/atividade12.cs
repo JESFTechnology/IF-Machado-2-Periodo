@@ -25,8 +25,7 @@ class Carnaval {
     
     static void Main() {
         Console.WriteLine("Insira as notas em uma única linha: ");
-        Console.WriteLine("6.4 8.2 8.2 7.4 9.1");
-        string notas = "6.4 8.2 8.2 7.4 9.1";
+        string notas = Console.ReadLine();
         conferirNotas(notas);
     }
 }
