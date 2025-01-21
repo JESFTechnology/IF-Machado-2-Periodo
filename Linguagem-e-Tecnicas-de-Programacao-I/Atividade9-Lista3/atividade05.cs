@@ -4,17 +4,17 @@ using System.Linq;
 
 class DataNascimento
 {
-    public int Mes { get; set; }
-    public int Ano { get; set; }
+    public int Mes;
+    public int Ano;
 }
 
 class Bicho
 {
-    public int Id { get; set; }
-    public int QuantidadeLeite { get; set; }
-    public int QuantidadeAlimento { get; set; }
-    public DataNascimento DataNasc { get; set; }
-    public string StatusAbate { get; set; }
+    public int Id;
+    public int QuantidadeLeite;
+    public int QuantidadeAlimento;
+    public DataNascimento DataNasc;
+    public string StatusAbate;
 }
 
 static class FazendaPrograma
